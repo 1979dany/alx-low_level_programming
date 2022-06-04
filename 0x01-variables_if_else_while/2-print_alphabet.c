@@ -1,20 +1,24 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char low;
-
-	for (low == 'a'; low <= 'z'; low++)
-		putchar(low);
-		putchar('\n');
-
-	return (0);
+int num;
+num = 97;
+while (num <= 122)
+putchar(num);
+num++;
+=======
+int p;
+p = 97;
+while (p <= 122)
+{
+putchar(p);
+p++;
 }
+putchar('\n');
+return (0);
+}i
