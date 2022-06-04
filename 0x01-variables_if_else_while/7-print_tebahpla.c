@@ -2,11 +2,10 @@
 #include <stdio.h>
 #include <time.h>
 
-/*
- *Main - entry point 
- *
+/**
+ *main - Entry point 
  * 
- * Return : alwyas 0 (succcess)
+ * Return: Alwyas 0 (Succcess)
  */
 
 int main(void)
