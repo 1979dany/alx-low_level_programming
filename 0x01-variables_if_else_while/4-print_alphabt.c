@@ -9,7 +9,7 @@
 
 int main(void)
 {
-        char lower_alphabet, e, q;
+	char lower_alphabet, e, q;
 	
 	lower_alphabet = 'a';
 	e = 'e';
