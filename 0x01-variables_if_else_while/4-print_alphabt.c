@@ -10,19 +10,17 @@
 int main(void)
 {
         char lower_alphabet, e, q;
-    
-
-        lower_alphabet = 'a';
+	
+	lower_alphabet = 'a';
 	e = 'e';
 	q = 'q';
-        while (lower_alphabet <= 'z')
-        {
-            if (lower_alphabet != e && lower_alphabet != q)
+	while (lower_alphabet <= 'z')
+	{
+		if (lower_alphabet != e && lower_alphabet != q)
 			putchar(lower_alphabet);
-            lower_alphabet++;
-        }
-
-        putchar('\n');
-        return (0);
+		lower_alphabet++;
+	}
+	putchar('\n');
+	return (0);
 }
 
