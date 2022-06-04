@@ -10,22 +10,23 @@
 int main(void)
 {
         char lower_alphabet;
-	char uper_alphabet;
+        char uper_alphabet;
 
         lower_alphabet = 'a';
+        uper_alphabet = 'A';
+
         while (lower_alphabet <= 'z')
         {
                 putchar(lower_alphabet);
                 lower_alphabet++;
         }
-	 uper_alphabet = 'A';
-        while (lower_alphabet <= 'Z')
+         while (uper_alphabet <= 'Z')
         {
                 putchar(uper_alphabet);
                 uper_alphabet++;
         }
 
-
         putchar('\n');
         return (0);
 }
+
