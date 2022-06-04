@@ -18,6 +18,7 @@ int main(void)
 		putchar(lower_alphabet);
 		lower_alphabet++;
 	}
+
 	putchar('\n');
 	return (0);
 }
