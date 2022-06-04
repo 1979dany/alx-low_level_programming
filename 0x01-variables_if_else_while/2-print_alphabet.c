@@ -18,8 +18,8 @@ int main(void)
 	{
 		putchar(lower_alphabet);
 	lower_alphabet++;
-		putchar('\n');
 	}
+	putchar('\n');
 
 	return (lower_alphabet);
 }
