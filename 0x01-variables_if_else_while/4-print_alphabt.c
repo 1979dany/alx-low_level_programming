@@ -9,11 +9,12 @@
 
 int main(void)
 {
-	char lower_alphabet,e,q;
+	char lower_alphabet, e, q;
 	
 	lower_alphabet = 'a';
 	e = 'e';
 	q = 'q';
+
 	while (lower_alphabet <= 'z')
 	{
 		if (lower_alphabet != e && lower_alphabet != q)
