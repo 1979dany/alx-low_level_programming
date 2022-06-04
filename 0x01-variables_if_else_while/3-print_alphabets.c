@@ -9,10 +9,10 @@
 
 int main(void)
 {
-        char lower_alphabet,uper_alphabet;
+        char lower_alphabet;
+	char uper_alphabet;
 
         lower_alphabet = 'a';
-	
 	while (lower_alphabet <= 'z')
         {
                 putchar(lower_alphabet);
@@ -20,7 +20,6 @@ int main(void)
         }
 
 	uper_alphabet = 'A';
-	
 	while (uper_alphabet <= 'Z')
         {
                 putchar(uper_alphabet);
