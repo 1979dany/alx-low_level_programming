@@ -10,12 +10,17 @@
 
 int main(void)
 {
-	char low;
+	char lower_alphabet;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
+	lower_alphabet = 'a';
+	 
+	while ( lower_alphabet <= 'z' )
+	{
+		putchar(lower_alphabet);
+	lower_alphabet++;
 		putchar('\n');
+	}
 
-	return (0);
+	return (lower_alphabet);
 }
 
