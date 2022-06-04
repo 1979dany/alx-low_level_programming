@@ -11,7 +11,7 @@ int main(void)
 
 	lower_alphabet = 'a';
 	 
-	while ( lower_alphabet <= 'z' )
+	while (lower_alphabet <= 'z')
 	{
 		putchar(lower_alphabet);
 	lower_alphabet++;
